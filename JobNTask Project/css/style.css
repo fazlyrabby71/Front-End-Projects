@@ -1,0 +1,265 @@
+/*Default css start*/
+
+@import url('https://fonts.googleapis.com/css?family=Cardo|Open+Sans|Raleway:400,700,900');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+a,
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Raleway Regular', sans-serif;
+}
+
+p {
+    font-family: 'Raleway Regular', sans-serif;
+}
+
+/*Default css end*/
+
+
+/*Header Area Start*/
+.header_area{}
+.top_menu{
+    background: #003399;
+    color: gray;
+}
+.header_area p{
+    line-height: 45px;
+}
+.menu_item ul li{
+     
+}
+.menu_item ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_item ul a{
+    color: gray;
+    padding: 12px 13px 10px;
+    display: block;
+    transition: all linear .3s; 
+}
+.menu_item ul a:hover{
+    color:  #ffffff;
+}
+.menu_item ul li:last-child a{
+    padding-right: 0px;
+}
+/*Header Top End*/
+
+.main_menu {
+    padding: 15px 0;
+    background: gray;
+}
+
+.main_menu .navbar-brand{
+    font-size: 30px;
+    font-weight: 400;
+}
+.main_menu .navbar-nav .nav-item .nav-link{
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 13px;
+    font-weight: 400;
+}
+
+.main_menu .navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0px;
+    
+}
+.main_menu .navbar-nav .nav-item.active .nav-link,
+.main_menu .navbar-nav .nav-item .nav-link:hover{
+    color: #ffffff;
+    
+}
+
+/*Header Area End*/
+
+
+/*Slider Area Start*/
+.slider_area .s_part {
+    width: 100%;
+    height: 500px;
+    
+}
+.slider_area {
+    padding: 0;
+    margin: 0;
+}
+
+.slider_area .carousel {
+    background: #53354A;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.carousel-indicators > li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+
+}
+
+
+
+/*Slider Area End*/
+
+
+/*Middle Area Start*/
+.middle_area .middle_part {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.middle_area .middle_part a {
+    font-size: 60px;
+    color: #003399;
+}
+
+.middle_area .middle_part h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Middle Area End*/
+
+
+/*Box Area Start*/
+.btn{
+    margin: 5px 0;
+}
+.card{
+    padding: 10px;
+    border: 2px solid #003399;
+    height: 100%;
+    width: 100% !important;
+}
+
+.box_area{
+    background: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 0;    
+}
+.box_area .card .card_head1{
+    margin-bottom: 30px;
+    background: gray;
+    color: white;
+}
+.box_area .card .card_head2{
+    margin-top: 20px;
+    background: gray;
+    color: white;
+}
+
+
+/*Box Area End*/
+
+
+/*Footer Area Start*/
+.footer_area {
+    margin-top: 180px;
+    background:#003399;
+    color: white;
+    padding: 80px 0;
+}
+
+.footer_area .col-md-4 h5 {
+    padding: 10px 0;
+    color: white;
+}
+
+.footer_area .col-md-4 p {
+    color: white;
+}
+
+.footer_area .col-md-4 a {
+    color: white;
+    padding: 10px 10px;
+    margin: 3px 0;
+    border: 2px solid white;
+}
+
+.footer_area a:hover{
+    color: #0066ff;
+    border: 2px solid #0066ff;
+}
+}
+.footer_area .row {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer_area .row .last_icon {
+    padding-top: 10px;
+}
+
+/*Footer Area End*/
+
+
+/*Last Area Start*/
+
+.last_area {
+    background: #000000;
+}
+
+.last_area .container {
+    padding: 20px 0;
+    color: white;
+}
+
+.last_area .container p {
+    color: #9D9D9D;
+    display: inline;
+}
+
+/*Last Area End*/
